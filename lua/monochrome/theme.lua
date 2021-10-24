@@ -46,7 +46,7 @@ function M.load_syntax()
     -- This is a comment
     SpecialComment = { fg = colors.gray6, style = 'bold,italic' },
     -- TODO: this is a todo comment
-    Todo = { fg = colors.purple, style = 'bold' },
+    Todo = { fg = colors.blue, style = 'bold' },
 
     LineNr = { fg = colors.gray3 },
     CursorLineNr = { fg = colors.gray8, bg = colors.bg_alt },
@@ -76,12 +76,12 @@ function M.load_syntax()
 
     ModeMsg = {},
     MoreMsg = {},
-    StatusLine = {},
-    StatusLineNC = {},
+    --StatusLine = {},
+    --StatusLineNC = {},
 
     MatchParen = { style = 'bold' },
 
-    VertSplit = { fg = colors.bg, bg = colors.bg },
+    VertSplit = { fg = colors.gray1, bg = colors.bg },
 
     TSAnnotation = {},
     TSAttribute = {},
@@ -130,7 +130,7 @@ function M.load_syntax()
     TSEmphasis = { style = 'italic' },
     TSUnderline = { style = 'underline' },
     TSStrike = { style = 'strikethrough' },
-    TSTitle = {},
+    TSTitle = {fg = colors.blue},
     TSLiteral = { fg = colors.fg },
     TSURI = {},
     TSMath = {},
@@ -276,6 +276,8 @@ function M.load_plugin_syntax()
     gitCommitSelectedType = {},
     gitCommitUntrackedFile = {},
     gitEmail = {},
+
+    gitcommitSummary = {link = 'PreProc'},
 
     NERDTreeGitStatusDirDirty = {},
     NERDTreeGitStatusModified = {},

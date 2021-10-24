@@ -1,12 +1,12 @@
 local colors = require 'monochrome.colors'
 return {
   normal = {
-    a = { fg = colors.black, bg = colors.neutral_green, gui = 'bold' },
+    a = { fg = colors.black, bg = colors.bright_green, gui = 'bold' },
     b = { fg = colors.fg, bg = colors.gray1 },
     c = { fg = colors.fg, bg = colors.bg },
   },
   insert = {
-    a = { fg = colors.black, bg = colors.faded_blue, gui = 'bold' },
+    a = { fg = colors.black, bg = colors.bright_blue, gui = 'bold' },
     b = { fg = colors.fg, bg = colors.gray1 },
     c = { fg = colors.fg, bg = colors.bg },
   },
