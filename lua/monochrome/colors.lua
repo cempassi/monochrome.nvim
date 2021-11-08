@@ -1,7 +1,7 @@
 local util = require 'monochrome.util'
 
 local Default = { '#EBEBEB', '#101010' }
-local Subtle = { '#F1F5F9', '#0A1219' }
+local Subtle = { '#F1F5F9', '#292929' }
 local CoolGray = { '#F9FAFB', '#111827' }
 local Photon = { '#c6c6c6', '#262626' }
 local Amplified = { '#FFFFFF', '#000000' }
@@ -29,6 +29,9 @@ local colors = {
   faded_purple   = '#db9fe9',
   faded_aqua     = '#88C0D0',
   faded_orange   = '#E69E83',
+  light_blue     = '#90caf9',
+  dark_blue      = '#4899ea',
+  dark_yellow    = '#fedb9a',
   base03         = '#002b36',
   base02         = '#073642',
   base01         = '#586e75',
