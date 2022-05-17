@@ -343,6 +343,8 @@ function M.load_plugin_syntax()
     BufferInactive = { fg = colors.gray3, bg = colors.bg_alt },
     BufferInactiveMod = { fg = colors.gray3, bg = colors.bg_alt, style = 'italic' },
     BufferInactiveSign = { fg = colors.gray3, bg = colors.bg_alt },
+
+    LeapLabelPrimary = {fg = colors.black, bg = colors.bright_red}
   }
   return plugin_syntax
 end
